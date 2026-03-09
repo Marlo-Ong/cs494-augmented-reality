@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Assignments/BaseARScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Assignments/Week 7/MainMenu.unity
+    guid: 58547e176c3c6f24980c9fcebb591d5a
+  - enabled: 1
+    path: Assets/Assignments/Week 7/UICubeSizing.unity
+    guid: 6083210868b612d418ae5a21bacb1ad6
+  - enabled: 1
+    path: Assets/Assignments/Week 7/AnimateOnUIButton.unity
+    guid: 42b86e3f840956c44992ecfd11e84755
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

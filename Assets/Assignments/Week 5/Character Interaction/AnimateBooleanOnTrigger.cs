@@ -11,6 +11,12 @@ public class AnimateBooleanOnTrigger : MonoBehaviour
         this.animator = GetComponent<Animator>();
     }
 
+    public void ToggleTrigger()
+    {
+        bool isTrigger = animator.GetBool(this.animationParameterName);
+        animator.SetBool(this.animationParameterName, !isTrigger);
+    }
+
     void OnTriggerEnter(Collider other)
     {
         animator.SetBool(this.animationParameterName, true);
