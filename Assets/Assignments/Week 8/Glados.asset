@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-3750944077979131020
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GLaDOS_escape_02_entry-02_{-3750944077979131020}
+  m_AudioClip: {fileID: 8300000, guid: c3a3ff0c0e1ad4814b674463c2772c52, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-790527783838682597
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GLaDOS_escape_02_entry-01_{-790527783838682597}
+  m_AudioClip: {fileID: 8300000, guid: 11dc3fc661f814732aa6e1df7586f7fc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-710132246147962074
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GLaDOS_escape_02_entry-00_{-710132246147962074}
+  m_AudioClip: {fileID: 8300000, guid: 162682fbd068c46faafb2e858de4b573, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3239307713129461286
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GLaDOS_escape_02_entry-04_{3239307713129461286}
+  m_AudioClip: {fileID: 8300000, guid: 85c465e7f3b4c45119158ce5de34e9b2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5934783145810721468
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GLaDOS_escape_02_entry-03_{5934783145810721468}
+  m_AudioClip: {fileID: 8300000, guid: 637597d7288724d02b6e0146701c07af, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glados
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -710132246147962074}
+  - {fileID: -790527783838682597}
+  - {fileID: -3750944077979131020}
+  - {fileID: 5934783145810721468}
+  - {fileID: 3239307713129461286}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 0
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
